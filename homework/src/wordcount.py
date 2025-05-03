@@ -10,7 +10,7 @@ def main():
     #input_folder = "data/input"
     #output_folder = "data/output"
     if len(sys.argv) != 3:
-        print("Usage: python -m homework <input_folder> <output_folder>")
+        print("Usage: python3 -m homework <input_folder> <output_folder>")
         sys.exit(1)
         
     input_folder = sys.argv[1]
